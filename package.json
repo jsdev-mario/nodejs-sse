@@ -1,22 +1,22 @@
 {
   "name": "sse-node",
-  "version": "0.1.0",
-  "description": "Make a server sent events",
+  "version": "1.0.0",
+  "description": "server sent event",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "server",
-    "sent",
-    "event",
-    "server sent",
-    "sse"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaonMicle/sse-node.git"
   },
-  "author": "Jaon Micle <jaonmicle@outlook.com>",
-  "license": "MIT"
+  "keywords": [
+    "sse"
+  ],
+  "author": "Jaon Micle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaonMicle/sse-node/issues"
+  },
+  "homepage": "https://github.com/JaonMicle/sse-node#readme"
 }
