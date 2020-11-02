@@ -126,7 +126,7 @@ class ServerSendEvent {
     }
 
 
-    sendEvent(name, data, time) {
+    async sendEvent(name, data, time) {
 
         var self = this;
 
@@ -156,7 +156,7 @@ class ServerSendEvent {
 
                 } else if (typeof data === 'function') {
 
-                    this.res.write('data: ' + JSON.stringify(data()) + '\n\n');
+                    this.res.write('data: ' + JSON.stringify(await data()) + '\n\n');
 
                 } else {
 
