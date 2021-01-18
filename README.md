@@ -95,4 +95,4 @@ You can use this module with HTTP response object
 
 ### The MIT License (MIT)
 
-Copyright (c) <2020> Jaon Micle
+Copyright (c) <2020> w3ever
